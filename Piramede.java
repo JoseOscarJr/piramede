@@ -10,18 +10,21 @@ public class Piramede {
 		return tipo;
 	}
 	public void setTipo(int tipo) {
+		if(tipo > 0 && tipo < 4)
 		this.tipo = tipo;
 	}
 	public double getH() {
 		return h;
 	}
 	public void setH(double h) {
+		if(h > 0)
 		this.h = h;
 	}
 	public double getAb() {
 		return ab;
 	}
 	public void setAb(double ab) {
+		if(ab > 0)
 		this.ab = ab;
 	}
 	
